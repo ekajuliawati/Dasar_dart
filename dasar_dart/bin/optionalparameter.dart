@@ -16,5 +16,5 @@ String say2(String from, String message, {String to, String appName}) {
 }
 
 main(List<String> args) {
-  print(say("johny", " Hello", to: "Abidah", appName: "whatshapp"));
+  print(say("johny", " Hello", to: "Eka", appName: "whatshapp"));
 }
