@@ -17,7 +17,7 @@ String say2(String from, String message,
 }
 
 double luas_segiempat(double panjang, double lebar) => panjang * lebar;
-main(List<String> args) {
+void main(List<String> args) {
   Function f;
   print(say("Johny", " Hello", to: "Eka", appName: "whatshapp"));
   print(f(6.0, 3.0));
