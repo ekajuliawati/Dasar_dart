@@ -9,7 +9,7 @@ void sapa_penonton() {
   print("Hello Penonton");
 }
 
-main(List<String> args) {
+void main(List<String> args) {
   double p, l, luas;
 
   p = double.tryParse(stdin.readLineSync());
