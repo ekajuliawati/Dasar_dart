@@ -1,7 +1,7 @@
 import 'package:dasar_dart/dasar_dart.dart' as dasar_dart;
 import 'dart:io';
 
-main(List<String> args) {
+void main(List<String> args) {
   int number = int.tryParse(stdin.readLineSync());
 
   switch (number) {
