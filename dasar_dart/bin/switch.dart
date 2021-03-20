@@ -1,16 +1,30 @@
 import 'package:dasar_dart/dasar_dart.dart' as dasar_dart;
 import 'dart:io';
 
-void main(List<String> arguments) {
+main(List<String> args) {
   int number = int.tryParse(stdin.readLineSync());
 
-  if (number == 0) {
-    print("nol");
-  } else if (number == 1) {
-    print("satu");
-  } else if (number == 2) {
-    print("dua");
-  } else {
-    print("bilangan lain");
+  switch (number) {
+    case 0:
+      print("nol");
+      break;
+    case 1:
+      print(number);
+      print("satu");
+      break;
+    case 2:
+      print("dua");
+      break;
+    default:
+      print("bilangan lain");
   }
+  // if (number == 0){
+  //   print("nol");
+  // } else if(number == 1) {
+  //   print("satu");
+  // } else if(number == 2) {
+  //   print("dua");
+  // } else {
+  //   print("bilangan lain");
+  // }
 }
