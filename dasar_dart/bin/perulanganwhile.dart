@@ -1,7 +1,7 @@
 import 'package:dasar_dart/dasar_dart.dart' as dasar_dart;
 import 'dart:io';
 
-main(List<String> args) {
+void main(List<String> args) {
   int i = 0;
   while (i < 5) {
     print("halo ke " + i.toString());
