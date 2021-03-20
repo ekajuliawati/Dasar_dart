@@ -9,6 +9,7 @@ void main(List<String> arguments) {
   } else if (number < 0) {
     print("negatif");
   } else {
-    print("nol");
+    print("bilangan lain");
   }
+  print(number + 10);
 }
