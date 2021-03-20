@@ -15,6 +15,6 @@ String say2(String from, String message, {String to, String appName}) {
       ((appName != null) ? " Via " + appName : "");
 }
 
-main(List<String> args) {
+void main(List<String> args) {
   print(say("johny", " Hello", to: "Eka", appName: "whatshapp"));
 }
